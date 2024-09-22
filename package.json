@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "echo \"No tests available\" && exit 0",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
